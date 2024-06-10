@@ -5,7 +5,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import { useLoadedAssets } from "./hooks/useLoadedAssets";
 import Navigation from "./navigation";
-import { useColorScheme, View } from "react-native";
+import { useColorScheme, View, Text } from "react-native";
 
 import { SpaceGrotesk_600SemiBold } from "@expo-google-fonts/space-grotesk";
 import { useFonts } from "expo-font";
@@ -21,7 +21,17 @@ export default function App() {
   console.log({ fontError });
 
   if (!fontsLoaded) {
-    return <View style={{ flex: 1, backgroundColor: "blue" }} />;
+    return (
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Text>{fontError?.message || ""}</Text>
+      </View>
+    );
   }
 
   if (!isLoadingComplete) {
