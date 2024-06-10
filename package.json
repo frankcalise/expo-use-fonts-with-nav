@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@expo-google-fonts/space-grotesk": "^0.2.3",
     "@expo/vector-icons": "^14.0.0",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^6.4.0",

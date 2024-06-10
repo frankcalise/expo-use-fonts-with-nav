@@ -816,6 +816,11 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
+"@expo-google-fonts/space-grotesk@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/space-grotesk/-/space-grotesk-0.2.3.tgz#f2d4fdc167d4d659b2a0d91d608e27ef9a7602f3"
+  integrity sha512-UYEMIrzegR02pauH7gVMI7j6cUroTtJug6dH/aQFjMNz0UwZe6GUcrEtJDmsUHJjEZdxbYgHhaiIwswWVo0CMA==
+
 "@expo/bunyan@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.0.tgz#be0c1de943c7987a9fbd309ea0b1acd605890c7b"
